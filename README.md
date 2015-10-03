@@ -62,6 +62,11 @@ market
 ----
 請用 `python makeindex.py && python moedict.py` 轉成萌典使用的 dict-amis.json 檔。
 
+臺灣言語資料庫
+----
+請用 `python2 makeindex.py && python2 moedict.py` 轉成萌典使用的 dict-amis.json 檔。
+再用 `virtualenv venv --python python3 && . venv/bin/activate && pip install pyyaml && python 轉到臺灣言語資料庫.py`，產生`dict-amis.yaml`檔供匯入。
+
 
 QuickDic
 --------
